@@ -1,65 +1,79 @@
-India Population Project
+# India Population Project
 
-Overview
+## Overview
 
-This project analyzes India’s state-wise population data using Python, SQL, and Tableau. It covers the complete data analysis workflow, including data storage, cleaning, analysis, and visualization.
+This project analyzes **India’s state-wise population data** using **Python, SQL, and Tableau**.
+It covers the complete data analysis workflow, including data storage, cleaning, analysis, and visualization.
 
-Database: india_data
-Table: state_data (20 columns including population, literacy rate, year, etc.)
-Python Analysis: Jupyter Notebook (analysis.ipynb)
-Tableau Dashboard: Interactive visualizations (dashboard.twbx)
-Database
-SQL file: sql/india_data.sql
+* Database: `india_data`
+* Table: `state_data` (20 columns including population, literacy rate, year, etc.)
+* Python Analysis: Jupyter Notebook (`analysis.ipynb`)
+* Tableau Dashboard: Interactive visualizations (`dashboard.twbx`)
 
-This file can recreate the entire database (schema + data)
+---
 
-Key columns include:
+## Database
 
-state
-population
-literacy_rate
-year
-"total/population"
-Python Analysis
-Data cleaning, transformation, and aggregation performed in Jupyter Notebook
+* SQL file: `sql/india_data.sql`
+* This file can recreate the **entire database (schema + data)**
+* Key columns include:
 
-Python libraries used:
+  * state
+  * population
+  * literacy_rate
+  * year
+  * "total/population"
 
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Tableau Dashboard
-Interactive dashboard created using Tableau
+---
 
-Visualizations include:
+## Python Analysis
 
-Population trends over time
-State-wise comparisons
-Literacy rate analysis
-File: tableau/dashboard.twbx
+* Data cleaning, transformation, and aggregation performed in Jupyter Notebook
+* Python libraries used:
 
-How to Run
+  * Pandas
+  * NumPy
+  * Matplotlib
+  * Seaborn
 
-Import the database using:
+---
 
-sql/india_data.sql
+## Tableau Dashboard
 
-Run the Jupyter Notebook:
+* Interactive dashboard created using Tableau
+* Visualizations include:
 
-analysis.ipynb
-Open the Tableau dashboard file:
+  * Population trends over time
+  * State-wise comparisons
+  * Literacy rate analysis
+* File: `tableau/dashboard.twbx`
 
-dashboard.twbx
+---
 
-Notes
+## How to Run
 
-PostgreSQL is used for database management
+1. Import the database using:
 
-Column names follow lowercase and underscore formatting
+   ```
+   sql/india_data.sql
+   ```
+2. Run the Jupyter Notebook:
 
-The column "total/population" requires double quotes in SQL queries
+   ```
+   analysis.ipynb
+   ```
+3. Open the Tableau dashboard file:
 
-Tools used: Python, SQL, Tableau, Jupyter Notebook, PostgreSQL
+   ```
+   dashboard.twbx
+   ```
 
-This project is ready for GitHub and portfolio showcase
+---
+
+## Notes
+
+* PostgreSQL is used for database management
+* Column names follow lowercase and underscore formatting
+* The column `"total/population"` requires double quotes in SQL queries
+* Tools used: **Python, SQL, Tableau, Jupyter Notebook, PostgreSQL**
+* This project is ready for GitHub and portfolio showcase
