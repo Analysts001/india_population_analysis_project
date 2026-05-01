@@ -1,5 +1,7 @@
 India Population Project
+
 Overview
+
 This project analyzes India’s state-wise population data using Python, SQL, and Tableau. It covers the complete data analysis workflow, including data storage, cleaning, analysis, and visualization.
 
 Database: india_data
