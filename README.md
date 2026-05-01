@@ -40,9 +40,11 @@ Literacy rate analysis
 File: tableau/dashboard.twbx
 
 How to Run
+
 Import the database using:
 
 sql/india_data.sql
+
 Run the Jupyter Notebook:
 
 analysis.ipynb
