@@ -53,7 +53,11 @@ dashboard.twbx
 Notes
 
 PostgreSQL is used for database management
+
 Column names follow lowercase and underscore formatting
+
 The column "total/population" requires double quotes in SQL queries
+
 Tools used: Python, SQL, Tableau, Jupyter Notebook, PostgreSQL
+
 This project is ready for GitHub and portfolio showcase
